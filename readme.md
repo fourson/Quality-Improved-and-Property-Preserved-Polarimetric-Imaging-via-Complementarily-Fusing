@@ -3,7 +3,7 @@
 By [Chu Zhou](https://fourson.github.io/), Yixing Liu, Chao Xu, [Boxin Shi](http://ci.idm.pku.edu.cn/)
 ![Network](Network.png)
 
-[PDF]() | [SUPP]()
+[PDF](https://papers.nips.cc/paper_files/paper/2024/file/f543648b4332a4d8b9e1b72c6b4e2e26-Paper-Conference.pdf) | [SUPP](https://papers.nips.cc/paper_files/paper/2024/file/f543648b4332a4d8b9e1b72c6b4e2e26-Supplemental-Conference.zip)
 
 ## Abstract
 Polarimetric imaging is a challenging problem in the field of polarization-based vision, since setting a short exposure time reduces the signal-to-noise ratio, making the degree of polarization (DoP) and the angle of polarization (AoP) severely degenerated, while if setting a relatively long exposure time, the DoP and AoP would tend to be over-smoothed due to the frequently-occurring motion blur. This work proposes a polarimetric imaging framework that can produce clean and clear polarized snapshots by complementarily fusing a degraded pair of noisy and blurry ones. By adopting a neural network-based three-phase fusing scheme with specially-designed modules tailored to each phase, our framework can not only improve the image quality but also preserve the polarization properties. Experimental results show that our framework achieves state-of-the-art performance.
