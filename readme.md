@@ -66,5 +66,15 @@ Note that all config files (`config/*.json`) and the learning rate schedule func
 ## Citation
 If you find this work helpful to your research, please cite:
 ```
-coming soon
+@inproceedings{NEURIPS2024_f543648b,
+ author = {Zhou, Chu and Liu, Yixing and Xu, Chao and Shi, Boxin},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang},
+ pages = {136018--136036},
+ publisher = {Curran Associates, Inc.},
+ title = {Quality-Improved and Property-Preserved Polarimetric Imaging via Complementarily Fusing},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2024/file/f543648b4332a4d8b9e1b72c6b4e2e26-Paper-Conference.pdf},
+ volume = {37},
+ year = {2024}
+}
 ```
