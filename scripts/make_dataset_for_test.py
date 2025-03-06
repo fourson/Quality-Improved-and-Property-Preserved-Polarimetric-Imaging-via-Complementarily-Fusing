@@ -30,7 +30,7 @@ def write_img(path, img, rgb=True):
 
 class Maker:
     """
-        output for train: I1, I2, I3, I4, B1, B2, B3, B4, L1, L2, L3, L4
+        output for test: I1, I2, I3, I4, B1, B2, B3, B4, L1, L2, L3, L4
         * all images are in [0, 1+]
         * images are in [R, G, B] manner
     """
