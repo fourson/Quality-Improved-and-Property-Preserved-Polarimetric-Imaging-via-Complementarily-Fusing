@@ -9,7 +9,7 @@ class WithGroundTruthDataset(Dataset):
     """
         as input:
         L1, L2, L3, L4: four polarized images with short-exposure (noisy, pre-amplified), [0, 1], as float32
-        L1, L2, L3, L4: four polarized images with long-exposure (blurry), [0, 1], as float32
+        B1, B2, B3, B4: four polarized images with long-exposure (blurry), [0, 1], as float32
 
         as target:
         I1, I2, I3, I4: four enhanced polarized images, [0, 1], as float32
@@ -86,7 +86,7 @@ class WithoutGroundTruthDataset(Dataset):
     """
         as input:
         L1, L2, L3, L4: four polarized images with short-exposure (noisy, pre-amplified), [0, 1], as float32
-        L1, L2, L3, L4: four polarized images with long-exposure (blurry), [0, 1], as float32
+        B1, B2, B3, B4: four polarized images with long-exposure (blurry), [0, 1], as float32
     """
 
     def __init__(self, data_dir, transform=None):
